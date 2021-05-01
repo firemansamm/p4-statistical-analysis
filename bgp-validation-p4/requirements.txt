@@ -1,0 +1,6 @@
+mininet==2.3.0dev6
+termcolor>=1.1.0
+ryu==4.34
+numpy==1.19.4
+nnpy==1.4.2
+scapy>=2.4.0

@@ -1,0 +1,4 @@
+__pycache__
+*.pyc
+p4src/*.p4i
+p4src/*.json

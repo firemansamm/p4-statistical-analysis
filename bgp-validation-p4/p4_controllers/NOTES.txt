@@ -1,0 +1,12 @@
+The thrift generated files were generated from the bmv2 source with the following command:
+
+thrift -o . --gen py -r bmv2/thrift_src/standard.thrift
+thrift -o . --gen py -r bmv2/thrift_src/simple_pre.thrift
+thrift -o . --gen py -r bmv2/thrift_src/simple_pre_lag.thrift
+thrift -o . --gen py -r bmv2/targets/simple_switch/thrift/simple_switch.thrift
+
+The output is taken from the gen-py folder. 
+
+A script does this automatically; to make sure that the thrift types are 
+compatible with your installed version of bmv2, delete the bundled bm_runtime and sswitch_runtime
+folders, then run generate_thrift_deps.sh in the p4_controllers folder.
